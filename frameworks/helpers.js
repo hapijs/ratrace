@@ -33,10 +33,11 @@ internals.stop = function (server) {
 exports.payload = function (callback) {
 
     if (callback) {
-        return callback(internals.payload);
+        setTimeout(() => callback(internals.payload), internals.delay);
+        return;
     }
 
-    return internals.payload;
+    return new Promise((resolve) => setTimeout(() => resolve(internals.payload), internals.delay));
 };
 
 
