@@ -1,7 +1,7 @@
 'use strict';
 
 const internals = {
-    delay: 0
+    delay: 1
 };
 
 
