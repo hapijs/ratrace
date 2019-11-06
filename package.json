@@ -1,7 +1,7 @@
 {
     "name": "@commercial/ratrace",
     "description": "Frameworks performance comparison",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "repository": "git://github.com/hapijs/ratrace",
     "main": "lib/index.js",
     "keywords": [
