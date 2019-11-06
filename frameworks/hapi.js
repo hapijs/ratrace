@@ -28,8 +28,9 @@ exports.start = async function ({ port }) {
             },
             state: { parse: false }
         },
-        handler: function (request, h) {
+        handler: async function (request, h) {
 
+            await new Promise(resolve => setTimeout(resolve, 1));
             return Helpers.payload();
         }
     });
