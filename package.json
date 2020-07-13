@@ -14,7 +14,7 @@
         "comparison"
     ],
     "dependencies": {
-        "@commercial/beam": "2.x.x",
+        "@hapi/beam": "2.x.x",
         "@hapi/hapi": "19.x.x",
         "@hapi/teamwork": "4.x.x",
         "@hapi/wreck": "17.x.x",
