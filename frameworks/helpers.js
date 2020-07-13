@@ -1,8 +1,6 @@
 'use strict';
 
-const internals = {
-    delay: 0
-};
+const internals = {};
 
 
 exports.state = function (server) {

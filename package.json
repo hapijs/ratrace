@@ -1,9 +1,12 @@
 {
-    "name": "@commercial/ratrace",
+    "name": "@hapi/ratrace",
     "description": "Frameworks performance comparison",
     "version": "1.0.0",
     "repository": "git://github.com/hapijs/ratrace",
     "main": "lib/index.js",
+    "files": [
+        "lib"
+    ],
     "keywords": [
         "framework",
         "benchmark",
@@ -11,10 +14,10 @@
         "comparison"
     ],
     "dependencies": {
-        "@commercial/beam": "1.x.x",
-        "@hapi/hapi": "18.x.x",
-        "@hapi/teamwork": "3.x.x",
-        "@hapi/wreck": "16.x.x",
+        "@commercial/beam": "2.x.x",
+        "@hapi/hapi": "19.x.x",
+        "@hapi/teamwork": "4.x.x",
+        "@hapi/wreck": "17.x.x",
         "express": "4.x.x",
         "fastify": "2.x.x",
         "koa": "2.x.x",
@@ -26,8 +29,8 @@
         "restify": "8.x.x"
     },
     "devDependencies": {
-        "@hapi/code": "7.x.x",
-        "@hapi/lab": "21.x.x"
+        "@hapi/code": "8.x.x",
+        "@hapi/lab": "22.x.x"
     },
     "bin": {
         "bench": "./bin/bench"
@@ -37,5 +40,5 @@
         "test": "lab -a @hapi/code -t 100 -L -m 10000",
         "test-cov-html": "lab -a @hapi/code -r html -o coverage.html"
     },
-    "license": "SEE LICENSE IN LICENSE.md"
+    "license": "BSD-3-Clause"
 }
