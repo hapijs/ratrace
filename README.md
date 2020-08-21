@@ -12,9 +12,10 @@
 
 - [Documentation and API](https://hapi.dev/family/ratrace/)
 - [Versions status](https://hapi.dev/resources/status/#ratrace)
+- [Changelog](https://hapi.dev/family/ratrace/changelog/)
 - [Project policies](https://hapi.dev/policies/)
 - [Free and commercial support options](https://hapi.dev/support/)
 
-## Acknoledgements
+## Acknowledgements
 
 Inspired by [benchmarks](https://github.com/fastify/benchmarks), Copyright (c) 2017 ./c², MIT licensed.
