@@ -15,22 +15,22 @@
     ],
     "dependencies": {
         "@hapi/beam": "2.x.x",
-        "@hapi/hapi": "19.x.x",
-        "@hapi/teamwork": "4.x.x",
+        "@hapi/hapi": "20.x.x",
+        "@hapi/teamwork": "5.x.x",
         "@hapi/wreck": "17.x.x",
         "express": "4.x.x",
-        "fastify": "2.x.x",
+        "fastify": "3.x.x",
         "koa": "2.x.x",
-        "koa-router": "7.x.x",
+        "koa-router": "9.x.x",
         "micro": "9.x.x",
         "micro-route": "2.x.x",
-        "ora": "4.x.x",
+        "ora": "5.x.x",
         "polka": "0.5.x",
         "restify": "8.x.x"
     },
     "devDependencies": {
         "@hapi/code": "8.x.x",
-        "@hapi/lab": "22.x.x"
+        "@hapi/lab": "23.x.x"
     },
     "bin": {
         "bench": "./bin/bench"
