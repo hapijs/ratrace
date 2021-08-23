@@ -1,44 +1,50 @@
 {
-    "name": "@hapi/ratrace",
-    "description": "Frameworks performance comparison",
-    "version": "1.0.2",
-    "repository": "git://github.com/hapijs/ratrace",
-    "main": "lib/index.js",
-    "files": [
-        "lib"
-    ],
-    "keywords": [
-        "framework",
-        "benchmark",
-        "performance",
-        "comparison"
-    ],
-    "dependencies": {
-        "@hapi/beam": "2.x.x",
-        "@hapi/hapi": "20.x.x",
-        "@hapi/teamwork": "5.x.x",
-        "@hapi/wreck": "17.x.x",
-        "express": "4.x.x",
-        "fastify": "3.x.x",
-        "koa": "2.x.x",
-        "koa-router": "9.x.x",
-        "micro": "9.x.x",
-        "micro-route": "2.x.x",
-        "ora": "5.x.x",
-        "polka": "0.5.x",
-        "restify": "8.x.x"
-    },
-    "devDependencies": {
-        "@hapi/code": "8.x.x",
-        "@hapi/lab": "24.x.x"
-    },
-    "bin": {
-        "bench": "./bin/bench"
-    },
-    "scripts": {
-        "start": "./bin/bench",
-        "test": "lab -a @hapi/code -t 100 -L -m 10000",
-        "test-cov-html": "lab -a @hapi/code -r html -o coverage.html"
-    },
-    "license": "BSD-3-Clause"
+  "name": "@hapi/ratrace",
+  "description": "Frameworks performance comparison",
+  "version": "1.0.2",
+  "repository": "git://github.com/hapijs/ratrace",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "framework",
+    "benchmark",
+    "performance",
+    "comparison"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "plugin:@hapi/module"
+    ]
+  },
+  "dependencies": {
+    "@hapi/beam": "2.x.x",
+    "@hapi/hapi": "20.x.x",
+    "@hapi/teamwork": "5.x.x",
+    "@hapi/wreck": "17.x.x",
+    "express": "4.x.x",
+    "fastify": "3.x.x",
+    "koa": "2.x.x",
+    "koa-router": "9.x.x",
+    "micro": "9.x.x",
+    "micro-route": "2.x.x",
+    "ora": "5.x.x",
+    "polka": "0.5.x",
+    "restify": "8.x.x"
+  },
+  "devDependencies": {
+    "@hapi/code": "8.x.x",
+    "@hapi/eslint-plugin": "*",
+    "@hapi/lab": "24.x.x"
+  },
+  "bin": {
+    "bench": "./bin/bench"
+  },
+  "scripts": {
+    "start": "./bin/bench",
+    "test": "lab -a @hapi/code -t 100 -L -m 10000",
+    "test-cov-html": "lab -a @hapi/code -r html -o coverage.html"
+  },
+  "license": "BSD-3-Clause"
 }
